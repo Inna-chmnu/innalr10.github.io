@@ -38,5 +38,18 @@ body {
     }
 h2, h3 {
     color: rgb(0, 255, 98);
+}
+@media (max-width: 480px) {
+    #generate {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
 
+    .slot {
+        grid-gap: 5px;
+    }
+
+    #message {
+        font-size: 18px;
+    }
 }
