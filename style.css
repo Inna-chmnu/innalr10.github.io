@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url("img/background.jpg");
+    background-image: url("background.jpg");
     }
 #generate {
     background: #00cc00;
@@ -38,4 +38,5 @@ body {
     }
 h2, h3 {
     color: rgb(0, 255, 98);
+
 }
