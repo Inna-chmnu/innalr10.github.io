@@ -1,13 +1,13 @@
 const slots = [
-    {id: "img1", img: "img/1.png"},
-    {id: "img11", img: "img/2.png"},
-    {id: "img12", img: "img/3.png"},
-    {id: "img2", img: "img/1.1.png"},
-    {id: "img21", img: "img/1.2.png"},
-    {id: "img22", img: "img/2.1.png"},
-    {id: "img3", img: "img/2.2.png"},
-    {id: "img31", img: "img/3.1.png"},
-    {id: "img32", img: "img/3.2.png"}
+    {id: "img1", img: "1.png"},
+    {id: "img11", img: "2.png"},
+    {id: "img12", img: "3.png"},
+    {id: "img2", img: "1.1.png"},
+    {id: "img21", img: "1.2.png"},
+    {id: "img22", img: "2.1.png"},
+    {id: "img3", img: "2.2.png"},
+    {id: "img31", img: "3.1.png"},
+    {id: "img32", img: "3.2.png"}
 ];
 
 const images = slots.map(s => s.img);
@@ -79,4 +79,5 @@ document.getElementById("generate").onclick = function () {
         }
 
     }, 1000);
+
 };
